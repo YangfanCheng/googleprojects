@@ -1,4 +1,11 @@
-/*This is a number analogy to a famous card trick. Ask the user to enter a three-digit number. Think of the number as ABC (where A, B, C are the three digits of the number). Now, find the remainders of the numbers formed by ABC, BCA, and CAB when divided by 11. We will call these remainders X, Y, Z. Add them up as X+Y, Y+Z, Z+X. If any of the sums are odd, increase or decrease it by 11 (whichever operation results in a positive number less than 20; note if the sum is 9, just report this and stop the process). Finally, divide each of the sums in half. The resulting digits are A, B, C. Write a program that implements this algorithm.*/
+/*This is a number analogy to a famous card trick. Ask the user to enter a three-digit number. 
+Think of the number as ABC (where A, B, C are the three digits of the number).
+Now, find the remainders of the numbers formed by ABC, BCA, and CAB when divided by 11. We will call these remainders X, Y, Z.
+Add them up as X+Y, Y+Z, Z+X.
+If any of the sums are odd, increase or decrease it by 11 (whichever operation results in a positive number less than 20;
+note if the sum is 9, just report this and stop the process).
+Finally, divide each of the sums in half. The resulting digits are A, B, C.
+Write a program that implements this algorithm.*/
 
 //simple implemenation of google developer for c++ project
 
